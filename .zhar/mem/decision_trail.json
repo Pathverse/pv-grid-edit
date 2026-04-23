@@ -1,0 +1,38 @@
+{
+  "05324": {
+    "id": "05324",
+    "group": "decision_trail",
+    "node_type": "decision",
+    "summary": "Start with rectangle-only shapes behind an abstract shape contract",
+    "status": "active",
+    "tags": [],
+    "source": null,
+    "content": null,
+    "created_at": "2026-04-23T18:44:59Z",
+    "updated_at": "2026-04-23T18:44:59Z",
+    "expires_at": null,
+    "metadata": {
+      "alternatives_considered": "Direct rectangle-only concrete API",
+      "tradeoffs": "Faster MVP while preserving extensibility for unusual grid-snappable shapes"
+    },
+    "custom": {}
+  },
+  "0f073": {
+    "id": "0f073",
+    "group": "decision_trail",
+    "node_type": "decision",
+    "summary": "Blend multiple shape behaviors together in example layouts",
+    "status": "active",
+    "tags": [],
+    "source": null,
+    "content": null,
+    "created_at": "2026-04-23T19:17:01Z",
+    "updated_at": "2026-04-23T19:17:01Z",
+    "expires_at": null,
+    "metadata": {
+      "alternatives_considered": "Single-behavior example pages only",
+      "tradeoffs": "Examples become more realistic and better expose interaction edge cases"
+    },
+    "custom": {}
+  }
+}
