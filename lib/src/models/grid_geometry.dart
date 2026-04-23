@@ -85,13 +85,13 @@ final class GridSizeConstraints {
   /// Clamps a requested size to the configured limits.
   GridSize clamp(GridSize size) {
     final columns = switch ((minColumns, maxColumns)) {
-      (final int min, final int max) => size.columns.clamp(min, max) as int,
+      (final int min, final int max) => size.columns.clamp(min, max),
       (final int min, null) => size.columns < min ? min : size.columns,
       (null, final int max) => size.columns > max ? max : size.columns,
       (null, null) => size.columns,
     };
     final rows = switch ((minRows, maxRows)) {
-      (final int min, final int max) => size.rows.clamp(min, max) as int,
+      (final int min, final int max) => size.rows.clamp(min, max),
       (final int min, null) => size.rows < min ? min : size.rows,
       (null, final int max) => size.rows > max ? max : size.rows,
       (null, null) => size.rows,

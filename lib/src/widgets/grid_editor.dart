@@ -4,7 +4,6 @@ import 'package:flutter/services.dart';
 
 import '../bloc/grid_editor_bloc.dart';
 import '../models/grid_geometry.dart';
-import '../models/grid_shape.dart';
 import '../utils/grid_snap.dart';
 import 'grid_canvas.dart';
 
