@@ -1,0 +1,4 @@
+doc/**
+.zhar/**
+.vscode/**
+.idea/**

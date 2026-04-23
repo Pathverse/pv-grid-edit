@@ -2,6 +2,8 @@
 
 A Flutter package for building snapped grid editors with draggable and resizable rectangle shapes.
 
+![Example app screenshot](https://raw.githubusercontent.com/Pathverse/pv-grid-edit/refs/heads/main/doc/image.png)
+
 ## Features
 
 - Rectangle-based grid editing with frozen, fixed-size movable, constrained, and free-flowing behaviors.
